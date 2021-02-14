@@ -1,0 +1,21 @@
+#!/bin/bash
+
+subnodes () {
+  while read line; do
+    [[ ! -d $line ]] && continue
+    name=$(head -1 $line/README.md)
+    name=${name:2}
+    echo "* [$name]($line)"
+  done < <(ls -1)
+}
+
+newone () {
+  while read -r line; do 
+    [[ $line =~ ^\* ]] && break
+    echo "$line"
+  done < README.md
+  subnodes
+}
+
+new=$(newone)
+echo "$new" > README.md

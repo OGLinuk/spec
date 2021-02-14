@@ -15,4 +15,4 @@ information has it [own specification](../keg).
 
 * [KN File Directory Structure](files)
 * [KN IDs, Names, and Title](naming)
-* [KN Special Node Types](types)
+* [KN Node Types](types)

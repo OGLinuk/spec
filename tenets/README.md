@@ -16,6 +16,18 @@
   about our consumption from font size preferences to personalized SEO
   criteria.
 
+* **Foster trust.** Best knowledge rises to the top based on what is
+  trusted by those *you* trust, not some broken system manipulated by
+  mob mentality, upvotes, and reputation trolling. Bots are silenced.
+  Popularity is based on what you trust, not random strangers. 
+
+* **No single transport dependency.** The exchange of knowledge must never
+  be locked to any single transport method. This prevents *any* party
+  from controlling the free exchange of knowledge. Existing transport
+  methods can and should be leveraged, but never required. Knowledge on
+  USB sticks transported by pneumatic tubes or bipeds (even quadrupeds)
+  must always be permitted.
+
 * **Minimum possible technology requirement.** Participants should be
   able to simply use paper and pen or pencil so long as they write
   clearly and use KEG Markdown (a simplified version of Pandoc Markdown,

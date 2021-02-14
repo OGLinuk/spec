@@ -1,4 +1,8 @@
-# KN Special Node Types
+# KN Node Types
+
+Knowledge nodes may have a type. Types definitions are themselves
+knowledge nodes with unique IDs and use the special [TYPES](types)
+[entry node](entry) within a [root node](root).
 
 The use of all capital letters (Lu) for any node name is reserved for
 special node types as specified [here](types).

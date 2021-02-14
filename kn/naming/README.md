@@ -2,7 +2,8 @@
 
 * Title and name are primary node identifiers
 * All caps reserved for special use
-* Unicode Lower Letters (Ll) and numbers required for URI and directory names
+* Unicode Lower Letters (Ll), numbers, and dashes only for URI and directory names
+* CSS-like translation between dashes and mixed case when needed
 * Titles should stand alone without implied context 
 * Only one title per node (`# Title`)
 * Titles may contain any valid Unicode
