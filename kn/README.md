@@ -51,6 +51,15 @@ The file types will usually be:
 * Scalable Vector Images (`.svg`)
 * Generator Script (`.sh`, `.py`, `.pl`, `.go`)
 
+### Forbidden Files
+
+Knowledge nodes should contain nothing but knowledge source and one
+optional script that generates it. Tool specific files unnecessarily
+bloat the node and are therefore forbidden. Detection of such files
+(including "hidden" files and unrelated binaries) may result in a node
+being black-listed by the KEG community and blocked by some tools (such
+as reference implementations of the `keg` and `kn` tools).
+
 ### `README.md`
 
 The `README.md` file contains free-form [Simplified Pandoc
@@ -117,3 +126,15 @@ document-oriented web sites as well (at the slight cost of redundant
 data in the index.html file since the `README.md` is always required).
 
 ## Root Knowledge Node
+
+The root knowledge node is a knowledge node containing one or more
+subdirectory nodes and is considered the parent of a collection (or
+rooted node tree). As a root node it contains certain additional files
+from a regular node to make it searchable and shareable.
+
+Name|Summary|Required
+|:-:|-|:-:
+DEX|One line for every node with epoch, ID, Title|Optional
+META|Searchable meta data from all nodes|Optional
+WORDS|Experimental words reverse index|Optional
+
