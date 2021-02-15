@@ -16,8 +16,10 @@ Name|Summary
 [DEX](dex)|Minimal index of all sibling nodes
 [META](meta)|Searchable meta data from all sibling nodes
 [WORDS](words)|Words map from all sibling nodes
+[URLS](urls)|Bookmarks to KEG URIs and Web URLs
 [TYPES](types)|Type definitions for sibling node types (JSON Schema)
 [KEG](keg)|Information related to sharing on KEG
+[doc](doc)|Statically rendered HTML and other document formats
 
 ### Specification
 
