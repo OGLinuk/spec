@@ -1,3 +1,29 @@
+# KN Type: base
+
+The *base* node type is the minimum required for a directory
+to be identified as a knowledge node. All other node types are subtypes
+of the base type. 
+
+## Required Files
+
+The directory must contain one of the following identifying files (which
+will be checked for in the following order):
+
+1. `README.md` 
+1. `DATA.yml`
+1. `DATA.json`
+1. `DATA.tsv`
+1. `DATA` (file or directory)
+
+The directory must not contain more than one data file beginning with
+the `DATA` prefix.
+
+The `README.md` file must always end with the `.md` suffix and no other.
+For example, files with `.mkd`, `.markdown` or no suffix will be
+ignored (like all other [static asset files](assets)).
+
+<!-- TODO integrate all this -->
+
 # KN File Directory Structure
 
 Each knowledge node is a directory (which some call a "folder") that

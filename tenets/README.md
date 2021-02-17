@@ -47,4 +47,3 @@
   knowledge node should cover one bit of knowledge completely and well
   so that it could be reasonably used as-is, in-line composed into a
   linear document.
-
